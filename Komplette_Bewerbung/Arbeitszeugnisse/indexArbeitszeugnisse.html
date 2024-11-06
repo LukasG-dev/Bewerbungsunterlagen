@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8"> <!-- Hier kommt das Encoding-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- width=device-width (das macht das die Bildschirm größe an das endgerät angepasst wird.)-->
+        <title>
+            Projekte von Lukas Grebner
+        </title> 
+        
+        <style> /* im Bereich Style kommt CSS zum einsatz, um hintergrund und schrift farbe zu ändern */
+            body {
+                background-color: rgba(0, 0, 0, 0.886);
+                color: beige; 
+            }
+            button {
+                background-color: rgba(9, 9, 9, 0.51);
+                color: beige;
+                width: 1400px;
+                height: 150px;
+                font-size: 60px;
+                border: none;
+                border-radius: 60px;
+                cursor: pointer;
+                /*width: 600px;
+                height: 60px;*/
+                font-family:'Courier New', courier, monospace, sans-serif;
+            }
+            button:hover {
+                background-color: rgba(7, 84, 7, 0.615);
+                color: black;
+            }
+            h1 {
+                font-family: 'Courier New', Courier, monospace, sans-serif;
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>
+            Arbeitszeugnisse
+        </h1>
+    
+        <p id="Arbeitszeugnis MainSicherheit">
+            <button onclick="window.open('Arbeitszeugnis MainSicherheit.pdf', '_blank')">
+                Arbeitszeugnis MainSicherheit
+            </button>
+        </p>
+        <p id="Arbeitszeugnis CatInTheDiceBag">
+            <button onclick="window.open('Arbeitszeugnis CatInTheDiceBag.pdf', '_blank')">
+                Arbeitszeugnis CatInTheDiceBag
+            </button>
+            
+        
+        <!-- Einbinden der JavaScript-Datei -->
+        <script src="script.js">
+            "use strict"
+            console.log("Hello World!")
+        </script>
+    </body>
+
+</html>

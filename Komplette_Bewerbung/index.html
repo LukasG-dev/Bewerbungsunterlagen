@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8"> <!-- Hier kommt das Encoding-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- width=device-width (das macht das die Bildschirm größe an das endgerät angepasst wird.)-->
+        <title>
+            Bewerbungsunterlagen von Lukas Grebner
+        </title> 
+        
+        <style> /* im Bereich Style kommt CSS zum einsatz, um hintergrund und schrift farbe zu ändern */
+            body {
+                background-color: rgba(0, 0, 0, 0.886);
+                color: beige;
+            }
+            button {
+                background-color: rgba(9, 9, 9, 0.51);
+                color: Beige;
+                width: 1400px;
+                height: 150px;
+                font-size: 60px;
+                border: none;
+                border-radius: 60px;
+                cursor: pointer;
+                /*width: 600px;
+                height: 60px;*/
+                font-family:'Courier New', courier, monospace, sans-serif;
+            }
+            button:hover {
+                background-color: rgba(7, 84, 7, 0.615);
+                color: black;
+            }
+            h1 {
+                font-family: 'Courier New', Courier, monospace, sans-serif;
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>
+            Bewerbungsunterlagen von Lukas Grebner
+        </h1>
+           
+            <p id="CV">
+                <button onclick="window.open('https://LukasG-dev.github.io/Bewerbungsunterlagen/Komplette_Bewerbung/Lebenslauf_Lukas_Grebner.pdf', '_blank')">
+                    Lebenslauf
+                </button>
+            </p>
+            <p id="Zeugnisse">
+                <button onclick="window.open('https://LukasG-dev.github.io/Bewerbungsunterlagen/Komplette_Bewerbung/Zeugnisse/indexZeugnisse.html', '_blank')">
+                    Zeugnisse
+                </button>
+            </p>
+            
+            <p id="Urkunde Textverarbeitung">
+                <button onclick="window.open('https://LukasG-dev.github.io/Bewerbungsunterlagen/Komplette_Bewerbung/Urkunde_Textverarbeitung_2015.pdf', '_blank')">
+                    Urkunde Textverarbeitung
+                </button>
+            </p>
+
+            <p id="Arbeitszeugnisse">
+                <button onclick="window.open('https://LukasG-dev.github.io/Bewerbungsunterlagen/Komplette_Bewerbung/Arbeitszeugnisse/indexArbeitszeugnisse.html', '_blank')">
+                    Arbeitszeugnisse
+                </button>
+            </p>
+
+            <p id="Projekte">
+                <button onclick="window.open('https://LukasG-dev.github.io/Bewerbungsunterlagen/Komplette_Bewerbung/Raketenspiel/indexProjekte.html', '_blank')">
+                    Projekte
+                </button>
+            </p>
+
+            
+            
+        
+        <!-- Einbinden der JavaScript-Datei -->
+        <script src="script.js">
+            "use strict"
+            console.log("Hello World!")
+        </script>
+    </body>
+
+</html>
